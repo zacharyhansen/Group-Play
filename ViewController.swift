@@ -52,7 +52,7 @@ class ViewController: UIViewController {
                 videoDetailsDict["id"] = (items[i]["id"] as! Dictionary<String, AnyObject>)["videoId"]
                 results.append(videoDetailsDict)
             }
-            // results revert back to empty array after closure ends.
+            // results revert back to empty array after closure ends..
         }
         task.resume()
         return results
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
                 songDetailsDict["id"] = snippetDict["uri"]
                 results.append(songDetailsDict)
             }
-            // results revert back to empty array after closure ends.
+            // results revert back to empty array after closure ends..
         }
         task.resume()
         return results
